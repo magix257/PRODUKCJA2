@@ -49,6 +49,9 @@ if(session.getAttribute("username")==null)
 </form>
 </div>
 <div class="col-sm-4">
+<form action="edytujprocesy.jsp">
+<button type="submit" class="btn btn-outline-primary" style='font-size:36px'>EDYTUJ PROCESY </button>
+</form>
 </div>
 </div>
 </div>
