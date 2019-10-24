@@ -20,7 +20,7 @@ if(session.getAttribute("username")==null)
 }
 
 %>
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div class="jumbotron text-center" style="margin-bottom:0">  
 <div class="row">
 <div class="col-sm-11">
 </div>
@@ -28,11 +28,25 @@ if(session.getAttribute("username")==null)
 <form action="Logout">
 <button type="submit" class="btn btn-outline-primary" style='font-size:12px' >LOGOUT</button>
 </form>
-</div></div>
-
-<h1>PRODUKCJA ADMIN</h1>
-
 </div>
+</div>
+
+<div class="row">
+<div class="col-sm-2">
+</div>
+<div class="col-sm-8">
+<img src="F:\POMOCE NOWE\PROGRAMOWANIE_JAVA\ECLIPSE\PRODUKCJA\img\logo_etiko.png" width="600" height="162">
+</div>
+<div class="col-sm-2">
+</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<div class="col-sm-12">
+<h1>PRODUKCJA ADMIN</h1>
+</div>
+</nav>
+
 <div class="container">
 <div class="row">
 <br>
@@ -54,6 +68,31 @@ if(session.getAttribute("username")==null)
 </form>
 </div>
 </div>
+
+
+
+<div class="row">
+<br>
+<div class="col-sm-4">
+<form action="edytujmaszyny.jsp">
+<button type="submit" class="btn btn-outline-primary" style='font-size:36px' >EDYTUJ MASZYNY</button>
+</form>
+</div>
+<div class="col-sm-4">
+<form action="dodajuzytkownika.jsp">
+<button type="submit" class="btn btn-outline-primary" style='font-size:36px'>DODAJ UZYTKOWNIKA</button>
+</form>
+</div>
+<div class="col-sm-4">
+<form action="edytujprocesy.jsp">
+<button type="submit" class="btn btn-outline-primary" style='font-size:36px'>EDYTUJ PROCESY </button>
+</form>
+</div>
+</div>
+
+
+
+
 </div>
 </body>
 </html>
