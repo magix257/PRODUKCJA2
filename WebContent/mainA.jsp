@@ -22,18 +22,18 @@ if(session.getAttribute("username")==null)
 %>
 <div class="jumbotron text-center" style="margin-bottom:0">  
 <div class="row">
-<div class="col-sm-11">
+<div class="col-xl-11">
 </div>
-<div class="col-sm-1">
+<div class="col-xl-1">
 <form action="Logout">
-<button type="submit" class="btn btn-outline-primary" style='font-size:12px' >LOGOUT</button>
+<button type="submit" class="btn btn-outline-primary" style='font-size:12px' >Wyloguj</button>
 </form>
 </div>
 </div>
 
 <div class="row">
 
-<div class="col-sm-12">
+<div class="col-xl-12">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="481.045px" height="129.055px" viewBox="0 0 481.045 129.055" enable-background="new 0 0 481.045 129.055"
 	 xml:space="preserve">
@@ -118,28 +118,63 @@ if(session.getAttribute("username")==null)
 
 </div>
 </div>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<div class="col-sm-12">
-<h1>PRODUKCJA ADMIN</h1>
-</div>
-</nav>
 
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+</nav>
+<div class="container-xl-3" style="margin-top:20">
+
+<div class="col-xl-2">
+<ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+</div>
+</div>
 <div class="container">
 <div class="row">
 <br>
 </div>
 <div class="row">
-<div class="col-sm-4">
+<div class="col-xl-4">
 <form action="dodajmaszyne.jsp">
 <button type="submit" class="btn btn-outline-primary" style='font-size:36px' >DODAJ MASZYNE  </button>
 </form>
 </div>
-<div class="col-sm-4">
+<div class="col-xl-4">
 <form action="pokazzlecenia.jsp">
 <button type="submit" class="btn btn-outline-primary" style='font-size:36px'>POKAZ ZLECENIA </button>
 </form>
 </div>
-<div class="col-sm-4">
+<div class="col-xl-4">
 <form action="edytujprocesy.jsp">
 <button type="submit" class="btn btn-outline-primary" style='font-size:36px'>EDYTUJ PROCESY </button>
 </form>
@@ -150,17 +185,17 @@ if(session.getAttribute("username")==null)
 
 <div class="row">
 <br>
-<div class="col-sm-4">
+<div class="col-xl-4">
 <form action="edytujmaszyny.jsp">
 <button type="submit" class="btn btn-outline-primary" style='font-size:36px' >EDYTUJ MASZYNY</button>
 </form>
 </div>
-<div class="col-sm-4">
+<div class="col-xl-4">
 <form action="dodajuzytkownika.jsp">
 <button type="submit" class="btn btn-outline-primary" style='font-size:36px'>DODAJ UZYTKOWNIKA</button>
 </form>
 </div>
-<div class="col-sm-4">
+<div class="col-xl-4">
 <form action="edytujprocesy.jsp">
 <button type="submit" class="btn btn-outline-primary" style='font-size:36px'>EDYTUJ PROCESY </button>
 </form>
